@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crickbuzz project</title>
+</head>
+<body>
+    <input type="number"id=enter placeholder="enter">
+    <button id="addbtn" onclick="addtask()">Add</button>
+    <select name="" id="shapeoptions">
+        <option value="circle">Circle</option>
+        <option value="square">Square</option>
+    </select>
+    
+    <input type="color">
+    <div class="container" >
+
+    </div>
+    
+
+</body>
+<script>
+     const input = document.getElementById("enter");
+     const add = document.getElementById("addbtn");
+     
+     function addtask(){
+        if(input.value ==''){
+            alert("you must write something!");
+        }else{
+            let li = document.createElement("li");
+            li.innerHTML = input.value;
+            listContainer
+        }
+     }
+
+     
+     
+
+     
+     
+    
+     
+     
+
+
+
+    </script>
+</html>
